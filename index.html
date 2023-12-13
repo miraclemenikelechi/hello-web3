@@ -1,0 +1,5 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><title>Document</title><link href="./css/main.css" rel="stylesheet"><script defer src="./js/index.js"> </script></head><body></body><section class="container"><div class="lesson__note"><h2>get account balance with ethers</h2><ul id="lessons_learned"><li><h5>ethers v6 is different from v5</h5><p>
+        its now browserProvider, not web3Provider. sadly.
+        </p></li><li><h5>funding an eth account</h5><p>
+        learnt to add funds to an account with ethers.
+        </p></li></ul></div><div class="actions"><button id="connectWallet">connect wallet</button><button id="accountBalance">balance</button><button id="fundWallet">fund</button></div><div class="transfer hidden"><input id="transferAmount" type="text" placeholder="amount to fund e.g 0.1 ETH"><button id="transferButton">transfer</button></div><div class="account__displays"><p class="account__name">account ID:<span id="accountID"> </span></p><p class="account__balance">balance:<span id="balance"></span></p></div></section></html>
